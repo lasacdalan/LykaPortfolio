@@ -1,0 +1,136 @@
+.projects-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  padding-top: 15px;
+
+  margin-bottom: 100px;
+}
+
+.projects-head {
+  font-size: 90px;
+  color: var(--main-text);
+  display: flex;
+  justify-content: center;
+
+  font-weight: 1000;
+  text-shadow: 10px 5px 0 rgba(123, 109, 228, 0.5);
+
+}
+
+.container {
+  width: 1000px;
+  height: 520px;
+  padding: 15px;
+  display: flex;
+  position: relative;
+}
+
+.proj-image {
+  width: 700px;
+  position: absolute;
+  border-radius: 20px;
+  left: 5px;
+}
+
+.proj-image img {
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px -2px rgba(40, 1, 101, 0.746);
+}
+
+.proj-info {
+  width: 555px;
+  height: 340px;
+  position: absolute;
+  background-color: rgba(183, 176, 240, 0.7);
+  padding: 22px;
+  right: -80px;
+  top: 43px;
+  color: var(--main-text);
+  border-radius: 20px;
+  box-shadow: 0 0 10px -2px   
+}
+
+.proj-title {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.proj-sub-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.proj-desc {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.know-more {
+  font-size: 17px;
+  border-radius: 30px;
+  background-color: var(--main-text);
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  height: 50px;
+  width: 125px;
+
+  cursor: pointer;
+}
+
+
+.preview {
+  font-size: 17px;
+  border-radius: 30px;
+  background-color:var(--secondary-color);
+  border: 2px solid var(--main-text);
+  color: var(--main-text);
+  height: 47px;
+  width: 125px;
+
+  cursor: pointer;
+}
+
+/*FOR SECOND PROJ*/
+
+.container.second {
+  margin-bottom: 100px;
+}
+
+.container.second .proj-image {
+  right: -80px;
+  left: auto;
+}
+
+.container.second .proj-image img{
+  height: 500px;
+}
+
+.container.second .proj-info {
+  left: 5px;
+  right: auto;
+  top: 80px;
+}
+
+/*third project*/
+
+.container.third .proj-image{
+  width: 450px;
+  position: absolute;
+  border-radius: 20px;
+  left: 65px;
+}
+
+.container.third .proj-image img {
+  height: 500px;
+}
+
+.container.third .proj-info{
+  right: 5px;
+  top: 75px;
+}

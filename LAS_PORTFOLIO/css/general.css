@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto slab", Arial;
+}
+
+:root {
+  --main-bg: #d6c4e6;        /* very light lavender background */
+  --main-text: #1a052d;      /* soft dark gray for text */
+  --secondary-color: #b498cf; /* soft pastel purple */
+  --hover-color: #cfb5ed;    /* slightly darker pastel purple */
+  --active-color: #CDB4DB;   /* light lavender-pink for active states */
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--main-bg);
+  
+}
+
+section {
+  padding-top: 80px;
+}
+
+.head {
+  font-size: 70px;
+  color: var(--main-text);
+  display: flex;
+  justify-content: center;
+
+  font-weight: 1000;
+  text-shadow: 10px 5px 0 rgba(123, 109, 228, 0.5);
+
+}

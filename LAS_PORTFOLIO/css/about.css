@@ -1,0 +1,47 @@
+
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px;
+  width: 95%;
+  margin: 40px auto;
+
+  height: 450px;
+}
+
+.about-container .right {
+  width: 60%;
+  margin-right: 10px;
+}
+
+.right .introduction {
+  font-size: 110px;
+  color: var(--main-text);
+}
+
+.right .occupation {
+  font-size: 40px;
+  color: var(--main-text);
+}
+
+.right .name-desc {
+  font-size: 20px;
+  color: var(--main-text);
+  margin-top: 15px;
+  text-align: justify;
+}
+
+.about-container .left {
+  width: 35%;
+}
+
+.about-container .left img {
+  width: 400px;
+  height: 470px;
+  margin-left: 50px;
+
+  border-radius: 35px;
+  border: 15px groove rgba(123, 109, 228, 0.5);
+}
