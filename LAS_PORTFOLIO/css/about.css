@@ -45,3 +45,39 @@
   border-radius: 35px;
   border: 15px groove rgba(123, 109, 228, 0.5);
 }
+
+button {
+  margin-top: 20px;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  border: 1px solid var(--main-text);
+
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.dl-cv {
+  background-color: var(--main-text);
+  color: var(--main-bg);
+  margin-right: 10px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.dl-cv:hover{
+  background-color: #c2aed6; 
+  color: var(--main-text);
+}
+
+.hire-me {
+  background-color: #c2aed6; 
+  color: var(--main-text);
+
+  transition: all 0.2s ease-in-out;
+}
+
+.hire-me:hover {
+  background-color: var(--main-text);
+  color: var(--main-bg);
+}
