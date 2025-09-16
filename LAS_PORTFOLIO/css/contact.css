@@ -58,9 +58,7 @@
   margin-top: 20px;
   display: flex;
   justify-content: center;
-
   margin-bottom: 80px;
-  
 }
 
 .form-email {
@@ -74,12 +72,9 @@
   height: 70px;
   width: 450px;
   padding: 20px;
-
   font-size: 17px;
   border-radius: 10px;
-
   border: 1px solid var(--main-text);
-
   background-color: #e4d5f1; 
   box-shadow: 1px 1px 2px var(--main-text);
 }
@@ -111,10 +106,22 @@
 .send-button {
   background-color: var(--main-text);
   color: var(--main-bg);
+  transition: all ease-in-out 0.2s;
+}
+
+.send-button:hover {
+  background-color: rgba(26, 5, 45, 0.8); 
+  color: var(--main-bg);
 }
 
 .clear-button {
   background-color: #c2aed6; 
+  color: var(--main-text);
+  transition: all ease-in-out 0.2s;
+}
+
+.clear-button:hover {
+  background-color:rgba(208, 191, 225, 0.5); 
   color: var(--main-text);
 }
 
@@ -134,8 +141,10 @@
   gap: 7px;
 }
 
-
 .social-icon i{
   color: var(--main-text);
 }
 
+.social-icon i:hover{
+  color: #411667;
+}

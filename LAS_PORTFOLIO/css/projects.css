@@ -2,9 +2,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
   padding-top: 15px;
-
   margin-bottom: 100px;
 }
 
@@ -13,10 +11,8 @@
   color: var(--main-text);
   display: flex;
   justify-content: center;
-
   font-weight: 1000;
   text-shadow: 10px 5px 0 rgba(123, 109, 228, 0.5);
-
 }
 
 .container {
@@ -79,7 +75,7 @@
   color: var(--secondary-color);
   height: 50px;
   width: 125px;
-
+  
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
